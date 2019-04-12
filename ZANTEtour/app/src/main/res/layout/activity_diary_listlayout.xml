@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:background="@color/greenYellow">
+
+        <ImageView
+            android:id="@+id/senderimage2"
+            android:layout_width="102dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="102dp"
+            android:background="@drawable/paperclip" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="171dp"
+            android:layout_marginTop="122dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="17dp"
+            android:text="TextView"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="216dp"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="151dp"
+            android:layout_marginBottom="124dp"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_alignStart="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="51dp"
+            android:text="TextView"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</LinearLayout>

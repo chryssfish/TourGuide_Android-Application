@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenYellow">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@color/greenYellow">
+
+        <TextView
+            android:id="@+id/txt_stars"
+            android:layout_width="34dp"
+            android:layout_height="22dp"
+            android:layout_alignTop="@+id/senderimage"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="171dp"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="179dp"
+            android:layout_marginBottom="54dp" />
+
+        <ImageView
+            android:id="@+id/image_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="204dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="149dp"
+            android:layout_marginBottom="51dp"
+            android:background="@android:drawable/star_big_on"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.26999998" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="256dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginBottom="54dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/senderimage"
+            android:layout_width="51dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="316dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/icon" />
+
+        <ImageView
+            android:id="@+id/groupusersimage"
+            android:layout_width="51dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="319dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="243dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="63dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="89dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="216dp"
+            android:layout_marginBottom="53dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</LinearLayout>

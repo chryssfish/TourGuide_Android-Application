@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "479376010823",
+    "firebase_url": "https://exalted-entity-225913.firebaseio.com",
+    "project_id": "exalted-entity-225913",
+    "storage_bucket": "exalted-entity-225913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479376010823:android:9fccf120caee66d1",
+        "android_client_info": {
+          "package_name": "com.unipi.cbarbini.zantetour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479376010823-0gefd6gjf369aa87grggkro24dcigoff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjl1ebHxr7LQCap8435jIm9mktSSjG1CE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
